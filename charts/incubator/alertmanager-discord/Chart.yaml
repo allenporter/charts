@@ -1,0 +1,19 @@
+apiVersion: v2
+appVersion: 1.0.0
+description: alertmanager-discord helm package
+name: alertmanager-discord
+version: 2.0.1
+kubeVersion: ">=1.16.0-0"
+keywords:
+- alertmanager-discord
+home: https://github.com/k8s-at-home/charts/tree/master/charts/incubator/alertmanager-discord
+sources:
+- https://github.com/benjojo/alertmanager-discord
+- https://hub.docker.com/r/benjojo/alertmanager-discord/
+maintainers:
+- name: allenporter
+  email: allen.porter@gmail.com
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 2.0.1
